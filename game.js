@@ -95,7 +95,7 @@ function update() {
     }
 
     points++;
-    if (points % 100 === 0) gameSpeed++;
+    if (points % 200 === 0) gameSpeed += 0.5;
 
     spawnCounter++;
     if (spawnCounter > spawnThreshold) {
